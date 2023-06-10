@@ -1,0 +1,49 @@
+//colors
+$primary : #6478b4;
+$secondary : #bc718b;
+$success : #40a169;
+$info :  #430f0d;
+$warning : #e1cb40;
+$danger : #eb2c24;
+$light : #fef8e0;
+$dark : #d85555;
+
+
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+$custom-theme-colors: (
+    "white": #ffffff,
+    "blue": $blue,
+    "black": $black,
+    "tabla": #f9f6f6,
+    "vanilla": #c2b16c,
+    "logout": #e1d4a3,
+    "gris": #494949,
+    "naranjo": #FF5733,
+    "mostaza": #FFC30F,
+);
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+$font-family-base: 'Noto Sans', sans-serif;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+
+
+
+
+
